@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RandomSelectActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/pick_area_bottom_dimen"
+        android:paddingTop="@dimen/pick_area_top_dimen"
+        android:paddingLeft="@dimen/pick_area_left_dimen"
+        android:paddingRight="@dimen/pick_area_right_dimen" >
+
+        <Spinner
+            android:id="@+id/show_scenarios_spinner"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:entries="@array/scenario_array" />
+
+        <Button
+            android:id="@+id/set_scenario_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_scenario" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/show_items_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="@dimen/show_item_area_bottom_dimen"
+        android:paddingLeft="@dimen/show_item_area_left_dimen"
+        android:paddingRight="@dimen/show_item_area_right_dimen"
+        android:paddingTop="@dimen/show_item_area_top_dimen"
+        android:text="aaaaaaaaa"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/show_item_text_size_dimen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/stqrt_area_left_dimen"
+        android:paddingLeft="@dimen/stqrt_area_left_dimen"
+        android:paddingRight="@dimen/start_area_right_dimen"
+        android:paddingTop="@dimen/start_area_top_dimen" >
+
+        <Button
+            android:id="@+id/start_pickup_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/start_pickup" />
+
+    </LinearLayout>
+
+</LinearLayout>

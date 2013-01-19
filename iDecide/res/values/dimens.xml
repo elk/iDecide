@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pick_area_top_dimen">50px</dimen>
+    <dimen name="pick_area_bottom_dimen">100px</dimen>
+    <dimen name="pick_area_left_dimen">20px</dimen>
+    <dimen name="pick_area_right_dimen">20px</dimen>
+    
+    <dimen name="start_area_top_dimen">50px</dimen>
+    <dimen name="start_area_bottom_dimen">50px</dimen>
+    <dimen name="stqrt_area_left_dimen">20px</dimen>
+    <dimen name="start_area_right_dimen">20px</dimen>
+    
+    <dimen name="show_item_area_top_dimen">50px</dimen>
+    <dimen name="show_item_area_bottom_dimen">50px</dimen>
+    <dimen name="show_item_area_left_dimen">20px</dimen>
+    <dimen name="show_item_area_right_dimen">20px</dimen>
+    
+    <dimen name="show_item_text_size_dimen">26sp</dimen>
+    
+</resources>
