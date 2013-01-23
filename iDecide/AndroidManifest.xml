@@ -30,6 +30,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.weaverbird.idecide.RandomSelectActivity" />
         </activity>
+        <activity
+            android:name="com.weaverbird.idecide.ScenarioAddActivity"
+            android:label="@string/title_activity_scenario_add"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
     </application>
 
 </manifest>
