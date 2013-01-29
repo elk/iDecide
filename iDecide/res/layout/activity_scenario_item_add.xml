@@ -1,13 +1,11 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".ScenarioAddActivity" >
+    tools:context=".ScenarioItemAddActivity" >
 
     <EditText
-        android:id="@+id/scenario_name_added"
+        android:id="@+id/scenario_item_name_added"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10" >
@@ -20,18 +18,18 @@
         android:layout_height="wrap_content" >
 
         <Button
-            android:id="@+id/scenario_add_ok_button"
+            android:id="@+id/scenario_item_add_ok_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="OK"
             android:onClick="onOKClicked"/>
 
         <Button
-            android:id="@+id/scenario_add_cancel_button"
+            android:id="@+id/scenario_item_add_cancel_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cancel"
             android:onClick="onCancelClicked"/>
     </LinearLayout>
 
-</LinearLayout>
+</RelativeLayout>

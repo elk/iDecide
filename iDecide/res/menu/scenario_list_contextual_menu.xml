@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/delete_scenario"
+        android:title="@string/contextual_menu_delete_scenario"/>
+    <item
+        android:id="@+id/view_scenario"
+        android:title="@string/contextual_menu_view_scenario"/>
+
+</menu>

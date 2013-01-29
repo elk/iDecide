@@ -20,8 +20,7 @@
             android:id="@+id/show_scenarios_spinner"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:entries="@array/scenario_array" />
+            android:layout_gravity="center_vertical" />
 
         <Button
             android:id="@+id/set_scenario_button"
@@ -40,7 +39,6 @@
         android:paddingLeft="@dimen/show_item_area_left_dimen"
         android:paddingRight="@dimen/show_item_area_right_dimen"
         android:paddingTop="@dimen/show_item_area_top_dimen"
-        android:text="aaaaaaaaa"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textSize="@dimen/show_item_text_size_dimen" />
 

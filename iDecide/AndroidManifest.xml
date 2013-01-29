@@ -35,6 +35,18 @@
             android:label="@string/title_activity_scenario_add"
             android:theme="@android:style/Theme.Dialog" >
         </activity>
+        <activity
+            android:name="com.weaverbird.idecide.ScenarioItemListActivity"
+            android:label="@string/title_activity_scenario_item_list" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.weaverbird.idecide.ScenarioListActivity" />
+        </activity>
+        <activity
+            android:name="com.weaverbird.idecide.ScenarioItemAddActivity"
+            android:label="@string/title_activity_scenario_item_add" 
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
     </application>
 
 </manifest>

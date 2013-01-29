@@ -5,7 +5,13 @@
     <string name="menu_settings">设置</string>
     <string name="set_scenario">设置</string>
     <string name="start_pickup">开始</string>
-     <string name="menu_adding_scenario">添加</string>
+    <string name="stop_pickup">停止</string>
+    <string name="menu_adding_scenario">添加</string>
+    <string name="menu_adding_item">添加</string>
+    <string name="contextual_menu_view_scenario">查看</string>
+    <string name="contextual_menu_delete_scenario">删除</string>
+    <string name="contextual_menu_edit_scenario_item">编辑</string>
+    <string name="contextual_menu_delete_scenario_item">删除</string>
 
     <string-array name="scenario_array">
         <item>Mercury</item>
